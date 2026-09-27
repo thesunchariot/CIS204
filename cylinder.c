@@ -18,11 +18,11 @@ int main(void) {
   double volume;
 
   // Getting the radius
-  printf("Please enter the radius: ");
+  printf("Enter the radius of the cylinder: ");
   scanf("%lf", &radius);
 
   // Getting the height
-  printf("Please enter the height: ");
+  printf("Enter the height of the cylinder: ");
   scanf("%lf", &height);
 
   // Calculating the volume
@@ -31,8 +31,8 @@ int main(void) {
   area = (2 * M_PI * radius * height) + (2 * M_PI * pow(radius, 2));
 
   // Ouput volume and area
-  printf("The volume of the cylinder is %.2lf cubic inches.\n", volume);
-  printf("The area of the cylinder is: %.2lf square inches.\n", area);
+  printf("Volume (cubic inches): %.2lf\n", volume);
+  printf("Surface area (square inches): %.2lf\n", area);
 
 
   return 0;
