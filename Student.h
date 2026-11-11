@@ -1,3 +1,6 @@
+// Zia Anderson
+// Chpt 7 PA
+
 #ifndef STUDENT_H
 #define STUDENT_H
 
