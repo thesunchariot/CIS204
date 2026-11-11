@@ -1,3 +1,6 @@
+// Zia Anderson
+// Chpt 7 PA
+
 #include <stdio.h>
 #include <string.h>
 
